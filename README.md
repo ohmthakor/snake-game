@@ -2,6 +2,9 @@
 
 <img width="500" alt="Screenshot 2024-07-15 at 1 45 15 PM" src="https://github.com/user-attachments/assets/bc7f5759-b2e5-4b26-88bd-94efa90af468">
 
+## Built With
+ ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) [React](https://reactjs.org/)
+
 ## Installation
 
 **Clone the repository:**
