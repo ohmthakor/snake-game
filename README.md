@@ -2,7 +2,7 @@
 
 <img width="500" alt="Screenshot 2024-07-15 at 1 45 15 PM" src="https://github.com/user-attachments/assets/bc7f5759-b2e5-4b26-88bd-94efa90af468">
 
-#Installation
+## Installation
 
 **Clone the repository:**
 
@@ -19,7 +19,7 @@
 
 The game should now be running at http://localhost:3000/snake-game.
 
-#Usage
+## Usage
 
   1. Open the game in your web browser.
   2. Choose the difficulty level from the dropdown menu.
