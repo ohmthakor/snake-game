@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="/src/App.css"> <!-- Adjust path if needed -->
+  <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon/favicon-16x16.png">
+  <link rel="manifest" href="%PUBLIC_URL%/favicon/site.webmanifest">
+</head>
+<body>
+  <header>
+    <h1>
+      <img src="%PUBLIC_URL%/favicon/android-chrome-192x192.png" alt="Favicon">
+    </h1>
+    <h1>
+      Snake Game
+    </h1>
+  </header>
+  <div class="menu">
+    <label for="difficulty">Choose Difficulty:</label>
+    <select id="difficulty">
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+    </select>
+    <button id="startBtn" onclick="startGame()">Start Game</button>
+    <button id="restartBtn" style="display:none;" onclick="restartGame()">Restart Game</button>
+  </div>
+  <div class="score">
+    Score: <span id="score">0</span>
+  </div>
+  <canvas id="gameCanvas"></canvas>
+  <script src="%PUBLIC_URL%/script.js"></script>
+</body>
+</html>

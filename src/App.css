@@ -1,0 +1,28 @@
+:root {
+  --dark-blue: #151D26; 
+  --orange: rgba(242, 135, 5, 0.5);
+  --accent-color: #566D8C;
+  --bone: #D8DBBE;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: var(--bone);
+}
+
+canvas {
+  border: 1px solid var(--dark-blue);
+}
+
+.menu {
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: var(--dark-blue);
+}
