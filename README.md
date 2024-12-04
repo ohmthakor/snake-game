@@ -14,7 +14,7 @@
 
   *Copy code*
   ```bash
-  git clone https://github.com/your-username/snake-game.git
+  git clone https://github.com/ohmthakor/snake-game.git
   cd snake-game
   ```
 **Install the dependencies:**
